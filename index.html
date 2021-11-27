@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./img/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./img/icons/favicon-16x16.png"
+    />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+
+    <title>Exchange Stock</title>
+  </head>
+
+  <body>
+    <div id="marquee" class="marquee">
+      <div id="marqueeDiv">
+        <!-- <span class="marqueeName" id="marqueeName">STOCK PRICES LIVE SOON</span>
+        <span class="marqueePrice" id="marqueePrice"
+          >STOCK PRICES LIVE SOON</span
+        > -->
+      </div>
+    </div>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <h1>
+            Stock Exchange <small class="blink">by Arsen Saladikhanov</small>
+          </h1>
+          <div class="searchbar">
+            <input
+              class="input_line"
+              id="formInput"
+              type="text"
+              placeholder="Type company name, meatbag"
+            />
+            <button class="search_button" id="submitButton">Search</button>
+            <div id="bouncer" class="nobouncer">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+          <div class="search_result_block" id="searchResultList"></div>
+        </div>
+        <div>
+          <!-- bouncing balls-->
+        </div>
+      </header>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
